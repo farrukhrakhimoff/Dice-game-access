@@ -24,7 +24,7 @@ function diceResult(dice1, dice2){  //tushgan random raqamlarni oladi va quyidag
     if(dice1 == dice2){     //agar ikkala dice ham bir hil raqam chiqib qolsa
         //diceRes degan knopka va p turgan butun boshli divni tag-pagi bilan ichidagi contentlarni o'zgartiramiz
         diceRes.innerHTML = `
-        <p class="green">Luck is with you!</p>
+        <p class="green">Luck is with you! </br>Welcome to my GitHub :)</p>
                 <i class="die die1 fas fa-dice-${dice1}"></i>   
                 <i class="die die1 fas fa-dice-${dice2}"></i>   
         `;          
@@ -36,7 +36,7 @@ function diceResult(dice1, dice2){  //tushgan random raqamlarni oladi va quyidag
     else{
         //aks holda boshqatadan urinib korish tavsiya qiladi
         diceRes.innerHTML = `
-        <p class="red">Try again, buddy :(</p>
+        <p class="red">Try again, buddy! :(</p>
             <i class="die die1 fas fa-dice-${dice1}"></i>
             <i class="die die1 fas fa-dice-${dice2}"></i>
         `;
